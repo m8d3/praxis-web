@@ -23,6 +23,11 @@
     .nav-link:hover {
       color: #ffffffcc !important; /* Helleres Weiß bei Hover */
     }
+    /* Beschränkung der List-Breite */
+    .service-list {
+      max-width: 600px;
+      margin: 0 auto; /* Zentriert */
+    }
   </style>
 </head>
 <body>
@@ -44,6 +49,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Kontakt</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#impressum">Impressum</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -52,7 +60,7 @@
   <!-- Einleitung (Intro Section) -->
   <section id="intro" class="container mt-5">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-12">
         <h1 class="text-center">Willkommen in der Naturheilpraxis Anika Müller</h1>
         <p class="lead text-center">Ihre Gesundheit ist unsere Priorität. In unserer Praxis bieten wir ganzheitliche Beratung und individuelle Behandlungsmöglichkeiten, um Ihr Wohlbefinden zu fördern. Vertrauen Sie auf unsere langjährige Erfahrung und moderne Naturheilverfahren.</p>
       </div>
@@ -62,15 +70,17 @@
   <!-- Leistungen (Services Section) -->
   <section id="services" class="container mt-5">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-12">
         <h2 class="text-center">Unsere Leistungen</h2>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Akupunktur</li>
-          <li class="list-group-item">Homöopathie</li>
-          <li class="list-group-item">Ernährungsberatung</li>
-          <li class="list-group-item">Pflanzenheilkunde</li>
-          <li class="list-group-item">Massage-Therapien</li>
-        </ul>
+        <div class="service-list">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Akupunktur</li>
+            <li class="list-group-item">Homöopathie</li>
+            <li class="list-group-item">Ernährungsberatung</li>
+            <li class="list-group-item">Pflanzenheilkunde</li>
+            <li class="list-group-item">Massage-Therapien</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -78,7 +88,7 @@
   <!-- Kontakt (Contact Section) -->
   <section id="contact" class="container mt-5 mb-5">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-12">
         <h2 class="text-center">Kontakt</h2>
         <p class="text-center">Besuchen Sie uns oder vereinbaren Sie einen Termin für eine individuelle Beratung.</p>
         <div class="text-center">
@@ -89,6 +99,28 @@
             Telefon: 0123-456789<br>
             E-Mail: info@naturheilpraxis-mueller.de
           </address>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impressum (Legal Section) -->
+  <section id="impressum" class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-center">Impressum</h2>
+        <div class="text-center">
+          <p>Verantwortlich für den Inhalt:</p>
+          <address>
+            <strong>Anika Müller</strong><br>
+            Naturheilpraxis Anika Müller<br>
+            Musterstraße 123<br>
+            12345 Musterstadt<br>
+            Telefon: 0123-456789<br>
+            E-Mail: info@naturheilpraxis-mueller.de
+          </address>
+          <p>Umsatzsteuer-ID: DE123456789<br>
+          Aufsichtsbehörde: Gesundheitsamt Musterstadt</p>
         </div>
       </div>
     </div>
