@@ -1,0 +1,53 @@
+body {
+    background-color: #f3f9e2;
+}
+
+.navbar {
+    background-color: #9DC95F;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+h1,
+h2 {
+    color: #9DC95F;
+}
+
+.nav-link:hover {
+    color: #ffffffcc !important;
+}
+
+h2 .butterfly-icon {
+    width:2rem;
+}
+
+.text-ci {
+    color: #9DC95F;
+}
+
+.btn-ci {
+    background-color: #9DC95F;
+    border-color: #9DC95F;
+    color: #fff;
+}
+
+.btn-ci:hover {
+    background-color: #85B24D;
+    border-color: #85B24D;
+    color: #fff;
+}
+
+.list-group {
+    background-color: #f3f9e2;
+}
+
+.list-group-item {
+    background-color: #f3f9e2;
+}
+
+.list-group-item:hover {
+    background-color: #e5f1b1;
+}
