@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #9DC95F;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+h1,
+h2 {
+    color: #9DC95F;
+}
+
+.nav-link:hover {
+    color: #ffffffcc !important;
+}
+
+h1 .butterfly-icon {
+    width: 5rem;
+}
+
+h2 .butterfly-icon {
+    width:4rem;
+}
+
+.text-ci {
+    color: #9DC95F;
+}
