@@ -16,14 +16,22 @@ h2 {
     color: #ffffffcc !important;
 }
 
-h1 .butterfly-icon {
-    width: 5rem;
-}
-
 h2 .butterfly-icon {
-    width:4rem;
+    width:2rem;
 }
 
 .text-ci {
     color: #9DC95F;
+}
+
+.btn-ci {
+    background-color: #9DC95F;
+    border-color: #9DC95F;
+    color: #fff;
+}
+
+.btn-ci:hover {
+    background-color: #85B24D;
+    border-color: #85B24D;
+    color: #fff;
 }
