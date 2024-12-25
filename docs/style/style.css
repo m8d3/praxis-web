@@ -1,3 +1,7 @@
+body {
+    background-color: #f3f9e2;
+}
+
 .navbar {
     background-color: #9DC95F;
 }
@@ -34,4 +38,16 @@ h2 .butterfly-icon {
     background-color: #85B24D;
     border-color: #85B24D;
     color: #fff;
+}
+
+.list-group {
+    background-color: #f3f9e2;
+}
+
+.list-group-item {
+    background-color: #f3f9e2;
+}
+
+.list-group-item:hover {
+    background-color: #e5f1b1;
 }
